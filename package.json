@@ -1,0 +1,22 @@
+{
+  "name": "express-oauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=app & nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "debug": "^4.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}
